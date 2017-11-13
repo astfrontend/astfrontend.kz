@@ -1,0 +1,15 @@
+/* Colors */
+$prime: #fff;
+$second: #000;
+$yellow: #fcd034;
+$orange: #e16330;
+$red: #c82139;
+/* Fonts */
+$roboto:  Roboto, Arial, Tahoma, sans-serif;
+$ubuntu: Ubuntu, Arial, Tahoma, sans-serif;
+
+/* Media */
+$sm: (min-width: 480px); /* small >= 480 */
+$md: (min-width: 768px); /* medium >= 768 */
+$lg: (min-width: 992px); /* large >= 992 */
+$xl: (min-width: 1200px); /* extra large >= 1200 */

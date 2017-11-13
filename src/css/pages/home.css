@@ -1,0 +1,60 @@
+.wrapper {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media ($sm) {
+    flex-direction: row;
+  }
+  color: $prime;
+  svg {
+    margin-bottom: 20px;
+    @media ($sm) {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  h2 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 38px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .75);
+  }
+  span {
+    display: block;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: $ubuntu;
+    letter-spacing: .9px;
+    line-height: 20px;
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.events {
+  background-color: $prime;
+  padding: 20px;
+  h2 {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 18px;
+    span {
+      font-weight: normal;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
